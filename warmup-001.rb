@@ -21,5 +21,9 @@ person = gets.chomp
 if person == person_name
   puts "the favourite things that #{person} likes to do in Berlin are #{favourite_things}"
 else
-  puts "I don't who that is"
+  puts "I don't know who that is"
 end
+
+
+# alles in ein hash speichern, bau ein function zum laden und speichern.
+# ob es eine yaml datei gibt zu speichern, und laufen lassen.
